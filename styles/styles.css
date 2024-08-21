@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+body {
+     font-family: sans-serif;
+     margin:20px;
+     
+}
+
+#central-head {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 20px;
+}
+
+#central-head p{
+    font-size: 0.5rem;
+}
+
+#central-head h1{
+    font-size: 1.8rem;
+    color: grey;
+}
+
+#navbar{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    padding:20px 30px;
+}
+
+#nav-list{
+    list-style: none;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.list-items{
+    display: inline;
+    padding: 10px;
+}
+
+#main-header {
+    margin: auto;
+}
+
+#hero{
+    width: 100%;
+}
+
+#contact-list {
+    background-color:black !important;
+}
+
+#contact-list a{
+    color: aliceblue;
+}
+
+#contact-list a:hover{
+    color: brown;
+}
