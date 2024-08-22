@@ -7,6 +7,7 @@
 body {
      font-family: sans-serif;
      margin:20px;
+     line-height: 1.5rem;
      
 }
 
@@ -56,12 +57,13 @@ a:hover {
     margin: auto;
 }
 
-#hero{
+#home{
     width: 100%;
 }
 
 #contact-list {
     background-color:black !important;
+    border-radius: 2rem;
 }
 
 #contact-list a{
@@ -71,3 +73,36 @@ a:hover {
 #contact-list a:hover{
     color: brown;
 }
+
+#central-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 {
+    border: 2px solid black ;
+    margin: 20px 10px;
+    height: 380px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+#first-icon{
+    font-size: 50px;
+    padding-left: 120px;
+    height: 100px;
+}
+
+.box-1 h3{
+    padding: 10px;
+}
+
+#btn {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    float: right;
+}
+
+
+
