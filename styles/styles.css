@@ -167,4 +167,79 @@ a:hover {
     padding: 10px;
 }
 
+#contact {
+    display: flex;
+}
+
+#contactbox1 {
+    /* border: 2px solid black;  */
+    margin: 10px;
+    padding: 10px;
+    width: 900px;
+    margin-left:20px ;
+}
+
+
+#formbox {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.inputbox {
+    margin:0px 10px;
+}
+
+input {
+    width:250px;
+    height:30px ;
+    border-color: rgb(219, 216, 216);
+    border-style:groove
+}
+
+#textarea {
+    width: 525px;
+    height: 100px;
+
+}
+
+#textareabox {
+    margin-left:10px;
+    border-color: rgb(219, 216, 216);
+}
+
+#btn3 {
+    margin-top: 10px;
+    margin-left: 388px;
+    width: 150px;
+    height: 40px;
+    border-radius: 1rem;
+    border-color:azure;
+}
+
+
+#text1 {
+    width: 620px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#text1 h2 {
+    margin: 15px;
+}
+
+#text2 {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+#main-footer {
+    /* border: 2px solid black; */
+    width: 900px;
+    text-align: center;
+    margin-left:190px;
+    margin-top: 10px;
+}
 
