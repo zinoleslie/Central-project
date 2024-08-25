@@ -5,9 +5,14 @@
 }
 
 body {
-     font-family: sans-serif;
-     margin:20px;
-     line-height: 1.5rem;
+        font-family: sans-serif;
+        width: 1300px;
+        gap: 0px;
+        border-radius: 8px 0px 0px 0px;
+        opacity: 0px;
+        line-height: 1.9rem;
+        margin: 20px;
+        /* border: 2px solid black; */
      /* overflow:initial; */
      
 }
@@ -113,12 +118,13 @@ a:hover {
 }
 
 .indexbox{
-     /* border: 2px solid black;  */
+    /* border: 2px solid black;   */
     margin: 10px;
     height: 500px;
     padding: 15px;
     margin-bottom:40px ;
     background-color: rgb(226, 219, 219);
+    height:550px;
 
 }
 
